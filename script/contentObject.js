@@ -6,7 +6,20 @@ var dynamicContent = {
 
 			images : [
 				"spring_1.jpg",
-				"spring_2.jpg"
+				"spring_2.jpg",
+				"spring_3.jpg",
+				"spring_4.jpg",
+				"spring_5.jpg",
+				"spring_6.jpg"
+			],
+
+			imageDescription : [
+				'These are some butterflies',
+				'This is a normal chicken',
+				'Beautiful cherry flowers',
+				'It might be Keukenhof',
+				'Bird',
+				'Future bird'
 			]
 		},
 
@@ -17,8 +30,20 @@ var dynamicContent = {
 
 			images : [
 				"summer_1.jpg",
-				"summer_2.jpg"
-			]
+				"summer_2.jpg",
+				"summer_3.jpg",
+				"summer_4.jpg",
+				"summer_5.jpg",
+				"summer_6.jpg"],
+
+			imageDescription : [
+				'Chairs on the beach',
+				'Sleepy dog',
+				'Summer drink',
+				'The pineapple',
+				'Shoulder in the summer',
+				'The summer fruit'
+				]
 		},
 
 		autumn : {
@@ -28,8 +53,20 @@ var dynamicContent = {
 
 			images : [
 				"autumn_1.jpg",
-				"autumn_2.jpg"
-			]
+				"autumn_2.jpg",
+				"autumn_3.jpg",
+				"autumn_4.jpg",
+				"autumn_5.jpg",
+				"autumn_6.jpg"],
+
+			imageDescription : [
+				'Some path',
+				'Some autumn produces',
+				'Geisha gone wild',
+				'Autumn sky',
+				'Autumn beast',
+				'This is Holloween'
+				]
 		},
 
 		winter : {
@@ -39,7 +76,19 @@ var dynamicContent = {
 
 			images : [
 				"winter_1.jpg",
-				"winter_2.jpg"
-			]
+				"winter_2.jpg",
+				"winter_3.jpg",
+				"winter_4.jpg",
+				"winter_5.jpg",
+				"winter_6.jpg"],
+
+			imageDescription : [
+				'Sunrise in the winter',
+				'Snow monster',
+				'Moody snowing day',
+				'Frozen flowers',
+				'Beautiful winter plant',
+				'Laser light in the sky'
+				]
 		}
 	};

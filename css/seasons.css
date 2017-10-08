@@ -56,3 +56,79 @@ section { margin-top: 15px; background-color: #FFF; }
 .subImagesContainer { padding: 0; }
 
 .thumb { height: 90px; margin: 8px; cursor: pointer; }
+
+.lightbox {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 5000;
+}
+
+.lightbox-img {
+	position: relative;
+	top: 10%;
+	left: 25%;
+	width: 50%;
+	display: block;
+	-webkit-animation-name: boom; /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+		-webkit-animation-timing-function: ease;
+		animation-name: boom;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes boom {
+    0% {top: 15%; opacity: 0; transform:scale(0.3,0.3)}
+		30% {top: 5%; opacity: 0.6}
+    100% {top: 10%; opacity: 1; transform:scale(1,1)}
+}
+
+/* Standard syntax */
+@keyframes boom {
+	0% {top: 15%; opacity: 0; transform:scale(0.3,0.3)}
+	30% {top: 5%; opacity: 0.6}
+	100% {top: 10%; opacity: 1; transform:scale(1,1)}
+}
+
+.lightbox-desc{
+	position:relative;
+	display: block;
+	top: 10%;
+	left: 25%;
+	font-family: 'Mystery Quest', cursive;
+	font-size: 30px;
+	-webkit-animation-name: fly; /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+		-webkit-animation-timing-function: ease;
+		animation-name: fly;
+		animation-duration: 2s;
+		animation-timing-function: ease;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fly {
+    0% {left: 60%; opacity: 0;}
+		50% {left: 60%; opacity: 0;}
+    100% {left: 25%; opacity: 1;}
+}
+
+/* Standard syntax */
+@keyframes fly {
+	0% {left: 60%; opacity: 0;}
+	50% {left: 60%; opacity: 0;}
+	100% {left: 25%; opacity: 1;}
+}
+
+.close-lightbox {
+	float: right;
+	margin-right: 18px;
+	margin-top: 12px;
+	font-size: 2em;
+	cursor: pointer;
+}
